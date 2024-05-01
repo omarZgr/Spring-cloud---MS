@@ -1,0 +1,6 @@
+
+
+spring.application.name=product-service
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.serviceId=configserver
+

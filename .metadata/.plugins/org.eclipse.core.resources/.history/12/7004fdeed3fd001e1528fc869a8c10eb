@@ -1,0 +1,4 @@
+spring.application.name=citi-config-server
+
+
+spring.cloud.config.server.git.uri="C:/Users/samsung/Desktop/MasterClass-spring framework/WorkShop/Spring cloud - MS/git-repo/gitRepo-externalConfiguration"

@@ -1,0 +1,38 @@
+#spring.application.name=citi-config-server
+
+server.port=8082
+
+spring.cloud.config.server.git.default-label=main
+
+#spring.cloud.config.server.git.uri=C:/Users/samsung/Desktop/MasterClass-spring framework/WorkShop/Spring cloud - MS/git-repo/gitRepo-externalConfiguration
+
+spring.cloud.config.server.git.uri=https://github.com/omarZgr/gitRepo-externalConfiguration.git
+
+
+
+#Write client configuration to connect to eureka
+
+#1 . service-name 
+
+spring.application.name=configserver
+
+#2 . pefer ipadress
+
+eureka.instance.prefer-ip-address=true
+
+#3 . register the ip with eureka
+
+eureka.client.register-with-eureka=true
+
+#4 . eureka service url
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+
+
+spring.cloud.config.discovery.enabled=true
+
+spring.cloud.config.discovery.serviceId=config-server
+
+
+

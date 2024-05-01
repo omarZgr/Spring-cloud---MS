@@ -1,0 +1,8 @@
+
+#enable config server through theEureka
+
+spring.cloud.config.discovery.enabled=true
+
+#config server instance  id in the eurekaserver
+
+spring.cloud.config.discovery.serviceId=config-server

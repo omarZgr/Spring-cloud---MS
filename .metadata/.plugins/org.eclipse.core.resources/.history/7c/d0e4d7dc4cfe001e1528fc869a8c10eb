@@ -1,0 +1,11 @@
+spring.application.name=03-encrypted-citi-config-server
+
+
+server.port=8081
+
+spring.cloud.config.server.git.default-label=main
+
+#spring.cloud.config.server.git.uri=C:/Users/samsung/Desktop/MasterClass-spring framework/WorkShop/Spring cloud - MS/git-repo/gitRepo-externalConfiguration
+
+spring.cloud.config.server.git.uri=https://github.com/omarZgr/gitRepo-externalConfiguration.git
+

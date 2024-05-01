@@ -1,0 +1,15 @@
+package com.application.serviceClient;
+
+import org.springframework.stereotype.Service;
+
+import com.application.entity.Product;
+
+@Service
+public class ProductServiceClient {
+	
+	public Product getProductById(long id)
+	{
+		return null ;
+	}
+
+}

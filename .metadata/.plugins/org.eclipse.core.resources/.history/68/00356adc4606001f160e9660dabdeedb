@@ -1,0 +1,9 @@
+spring.application.name=product-service
+
+
+
+
+spring.cloud.discovery.enabled=true
+
+
+spring.cloud.discovery.client.simple.instances.service1[0].uri=http://localhost:8082

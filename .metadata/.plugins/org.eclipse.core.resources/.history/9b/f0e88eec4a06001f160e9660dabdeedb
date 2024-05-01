@@ -1,0 +1,11 @@
+
+
+spring.application.name=product-service
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.serviceId=configserver
+
+
+
+spring.application.name=product-service
+spring.profiles.active=default
+spring.cloud.config.uri=http://config-server:8082

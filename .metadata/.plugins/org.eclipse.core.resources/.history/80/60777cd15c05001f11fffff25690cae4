@@ -1,0 +1,10 @@
+spring.application.name=05b-product-service
+
+server.port=2022
+
+
+# Database connection settings
+spring.datasource.url=jdbc:mysql://localhost:3306/spring_boot_ms_test
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update

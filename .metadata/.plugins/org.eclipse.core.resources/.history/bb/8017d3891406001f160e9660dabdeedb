@@ -1,0 +1,14 @@
+package com.application.serviceClient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+import com.application.entity.Product;
+
+@FeignClient("product-service")
+public interface ProductServiceClient {
+	
+	Product getProductById(long oid)  ;
+	
+	
+
+}

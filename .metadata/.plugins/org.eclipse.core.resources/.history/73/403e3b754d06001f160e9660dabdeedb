@@ -1,0 +1,2 @@
+# Specify the URI of the Config Server
+spring.cloud.config.uri=http://localhost:8082

@@ -1,0 +1,3 @@
+encrypt.key=myKey
+
+spring.cloud.config.encrypt.eanbled=false

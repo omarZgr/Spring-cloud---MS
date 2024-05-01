@@ -1,0 +1,12 @@
+spring.application.name=product-service
+
+
+#enable config server through theEureka
+
+spring.clofud.config.discovery.enabled=true
+
+#config server instance  id in the eurekaserver
+
+spring.cloud.config.discovery.serviceId=configserver
+
+

@@ -1,0 +1,7 @@
+spring.application.name=02-service-one
+
+
+server.port=9090
+
+
+spring.config.import=configserver:

@@ -1,0 +1,12 @@
+package com.application.serviceClient;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient("product-service")
+public interface ProductServiceClient {
+	
+	
+	
+	
+
+}

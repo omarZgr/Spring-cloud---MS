@@ -1,0 +1,14 @@
+
+
+
+
+server.port=9092
+
+
+
+management.endpoints.web.exposure.include=refresh
+
+management.endpoint.refresh.enabled=true
+
+
+
