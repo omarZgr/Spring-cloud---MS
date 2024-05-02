@@ -19,8 +19,11 @@ public class OrderController {
 	@GetMapping("/orders/{oid}")
 	public Product getAllProducts(@PathVariable("oid") long oid)
 	{
+		Product product =orderService.getProductById(oid);
 		
-		return orderService.getProductById(oid) ;
+		product.setDescription(product.getDescription() + "   this from ribbon")  ;
+		
+		return product ;
 	}
 
 }

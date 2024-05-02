@@ -20,7 +20,10 @@ public class OrderController {
 	public Product getAllProducts(@PathVariable("oid") long oid)
 	{
 		
-		return orderService.getProductById(oid) ;
-	}
+		Product product =orderService.getProductById(oid);
+		
+		product.setDescription(product.getDescription() + "   this from feign")  ;
+		
+		return product ;	}
 
 }

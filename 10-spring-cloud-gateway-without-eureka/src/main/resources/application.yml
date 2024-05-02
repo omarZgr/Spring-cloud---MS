@@ -21,4 +21,4 @@ spring:
           
 
 server : 
-  port : 9999
+  port : 9997
